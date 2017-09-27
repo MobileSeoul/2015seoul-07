@@ -1,0 +1,218 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    tools:context=".MainActivity"
+    android:layout_height="fill_parent">
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/llayout"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="#3F3D3E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/mainedit"
+        android:layout_width="260dp"
+        android:hint="  물건명 입력   예)지갑,휴대폰"
+        android:focusableInTouchMode="true"
+        android:textColorHint="#FFFFFF"
+        android:background="@drawable/round"
+        android:focusable="true"
+        android:singleLine="false"
+        android:autoText="true"
+        android:cursorVisible="true"
+
+        android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/searchbtn"
+            android:background="@drawable/icic"
+            android:layout_toRightOf="@id/mainedit"
+            android:layout_alignBaseline="@id/mainedit"
+            android:layout_marginLeft="10dp"
+            android:layout_width="60dp"
+            android:layout_height="31dp" />
+    </RelativeLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/grid"
+        android:divider="#20000000"
+        android:dividerHeight="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></ListView>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:id="@+id/slidinglayout"
+        android:orientation="vertical"
+        android:background="#3F3D3E"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/logo21"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/menutext1"
+                android:layout_marginTop="20dp"
+                android:text="분실물"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffdddddd"
+                android:textSize="15sp"
+                android:gravity="center"
+                />
+            <View
+                android:id="@+id/view1"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:background="#20000000"
+                android:layout_below="@id/menutext1"
+                android:layout_centerHorizontal="true"
+                android:layout_width="150px"
+                android:layout_height="0.1dp"/>
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_below="@id/view1"
+                android:src="@drawable/phone02"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/menutext2"
+                android:layout_below="@id/view1"
+                android:text="핸드폰"
+                android:layout_centerInParent="true"
+                android:textColor="#ffdddddd"
+                android:textSize="15sp"
+                android:gravity="center"
+                />
+            <View
+                android:layout_marginLeft="10dp"
+                android:id="@+id/view2"
+                android:layout_below="@id/menutext2"
+                android:layout_gravity="center"
+                android:background="#20000000"
+                android:layout_centerHorizontal="true"
+                android:layout_width="150px"
+                android:layout_height="0.1px"/>
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_below="@id/view2"
+                android:src="@drawable/search1"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/view2"
+                android:textColor="#ffdddddd"
+                android:layout_centerInParent="true"
+                android:id="@+id/menutext3"
+                android:text="검색"
+                android:textSize="15sp"
+                android:gravity="center"
+                />
+            <View
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/menutext3"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/view3"
+                android:layout_gravity="center"
+                android:background="#20000000"
+                android:layout_width="150px"
+                android:layout_height="0.1px"/>
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_below="@id/view3"
+                android:src="@drawable/bell1"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="#ffdddddd"
+                android:layout_centerInParent="true"
+                android:id="@+id/menutext4"
+                android:text="알림"
+                android:textSize="15sp"
+                android:gravity="center"
+                />
+            <View
+                android:layout_marginLeft="10dp"
+                android:id="@+id/view4"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/menutext4"
+                android:layout_gravity="center"
+                android:background="#20000000"
+                android:layout_width="150px"
+                android:layout_height="0.1px"/>
+            <!-- 소현이가 추가하는 부분은-->
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_below="@id/view4"
+                android:src="@drawable/infosh"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="#ffdddddd"
+                android:layout_centerInParent="true"
+                android:id="@+id/menutext5"
+                android:text="개발자 정보"
+                android:textSize="15sp"
+                android:gravity="center"
+                />
+            <!--여기까지 추가하였음~~~~-->
+
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/topbtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/top1"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10px"
+        android:layout_marginRight="10px"
+        />
+</RelativeLayout>

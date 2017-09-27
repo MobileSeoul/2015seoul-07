@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hywoman.LostMistake.Search">
+    <item
+        android:id="@+id/menu01"
+        android:title="메뉴"
+        android:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menu1"
+        android:showAsAction="never"
+        android:title="버전정보"/>
+    <item
+        android:id="@+id/menu2"
+        android:showAsAction="never"
+        android:title="도움말"/>
+</menu>

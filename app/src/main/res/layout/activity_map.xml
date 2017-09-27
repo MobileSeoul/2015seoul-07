@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/rlayout"
+    tools:context="com.example.hywoman.LostMistake.Map">
+
+    <LinearLayout
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/load"
+        android:src="@drawable/rrr"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+</RelativeLayout>

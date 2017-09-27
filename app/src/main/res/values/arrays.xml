@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerPrdtClNm">
+        <item>선택</item>
+        <item>가방</item>
+        <item>지갑</item>
+        <item>카드</item>
+        <item>휴대폰</item>
+        <item>노트북</item>
+        <item>전자기기</item>
+        <item>서류</item>
+        <item>악세서리</item>
+        <item>쇼핑백</item>
+        <item>옷</item>
+        <item>스포츠</item>
+        <item>증명서</item>
+        <item>자동차</item>
+        <item>도서</item>
+        <item>현금</item>
+        <item>기타물품</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmBag">
+        <item>선택</item>
+        <item>여성용가방</item>
+        <item>남성용가방</item>
+        <item>기타가방</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmBook">
+        <item>선택</item>
+        <item>학습서적</item>
+        <item>소설</item>
+        <item>만화책</item>
+        <item>기타서적</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmShop">
+        <item>선택</item>
+        <item>쇼핑백</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmCar">
+        <item>선택</item>
+        <item>자동차열쇠</item>
+        <item>자동차번호판</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmSport">
+        <item>선택</item>
+        <item>자전거</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmWallet">
+        <item>선택</item>
+        <item>여성용지갑</item>
+        <item>남성용지갑</item>
+        <item>기타지갑</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmNoteBook">
+        <item>선택</item>
+        <item>삼성노트북</item>
+        <item>LG노트북</item>
+        <item>삼보노트북</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmPhone">
+        <item>선택</item>
+        <item>삼성휴대폰</item>
+        <item>LG휴대폰</item>
+        <item>아이폰</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmAcc">
+        <item>선택</item>
+        <item>반지</item>
+        <item>목걸이</item>
+        <item>시계</item>
+        <item>귀걸이</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmPaper">
+        <item>선택</item>
+        <item>서류</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmClothes">
+        <item>선택</item>
+        <item>여성의류</item>
+        <item>남성의류</item>
+        <item>기타의류</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmElectro">
+        <item>선택</item>
+        <item>MP3</item>
+        <item>카메라</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmIdenty">
+        <item>선택</item>
+        <item>신분증</item>
+        <item>면허증</item>
+        <item>여권</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmCard">
+        <item>선택</item>
+        <item>신용카드</item>
+        <item>기타카드</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmCash">
+        <item>선택</item>
+        <item>현금</item>
+        <item>수표</item>
+    </string-array>
+    <string-array name="spinnerFdPrdtNmEtc">
+        <item>선택</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="spinnerArea">
+        <item>선택</item>
+        <item>서울특별시</item>
+        <item>강원도</item>
+        <item>경기도</item>
+        <item>경상남도</item>
+        <item>경상북도</item>
+        <item>광주광역시</item>
+        <item>대구광역시</item>
+        <item>대전광역시</item>
+        <item>부산광역시</item>
+        <item>울산광역시</item>
+        <item>인천광역시</item>
+        <item>전라남도</item>
+        <item>전라북도</item>
+        <item>충청남도</item>
+        <item>충청북도</item>
+        <item>제주도</item>
+        <item>세종특별자치시</item>
+        <item>해외</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="spinnerColor">
+        <item>선택</item>
+        <item>검정</item>
+        <item>흰색</item>
+        <item>빨강</item>
+        <item>노랑</item>
+        <item>초록</item>
+        <item>파랑</item>
+        <item>분홍</item>
+        <item>갈색</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="spinnerTime">
+        <item>10분</item>
+        <item>30분</item>
+        <item>1시간</item>
+        <item>3시간</item>
+    </string-array>
+
+</resources>

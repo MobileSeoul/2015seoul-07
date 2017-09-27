@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hywoman.LostMistake" >
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/outlogo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/title_activity_splash"
+
+            android:theme="@android:style/Theme.Holo.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Detail"
+            android:label="@string/title_activity_detail" >
+        </activity>
+        <activity
+            android:name=".Map"
+            android:label="@string/title_activity_map" >
+        </activity>
+        <activity
+            android:name=".DetailPhone"
+            android:label="@string/title_activity_detail_phone" >
+        </activity>
+        <activity
+            android:name=".Phone"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:label="@string/title_activity_phone" >
+        </activity>
+        <activity
+            android:name=".Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name=".Bell"
+            android:label="@string/title_activity_bell" >
+        </activity>
+        <activity
+            android:name=".menu_lost_help"
+            android:label="@string/title_activity_menu_lost_help" >
+        </activity>
+        <activity
+            android:name=".menu_lost_version"
+            android:label="@string/title_activity_menu_lost_version" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+        <activity
+            android:name=".dialog"
+            android:label="@string/title_activity_dialog"
+            android:theme="@style/dialog" >
+        </activity>
+        <activity
+            android:name=".phonedialog"
+            android:label="@string/title_activity_phonedialog"
+            android:theme="@style/dialog" >
+        </activity>
+
+        <service
+            android:name=".MyService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".doum"
+            android:theme="@android:style/Theme.Holo.NoActionBar"
+            android:label="@string/title_activity_doum">
+        </activity>
+    </application>
+
+</manifest>

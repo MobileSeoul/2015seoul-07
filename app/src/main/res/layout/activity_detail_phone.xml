@@ -1,0 +1,219 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/rlayout"
+
+    tools:context="com.example.hywoman.LostMistake.Detail">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text=" >> 핸드폰상세조회"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="3px"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="#ffD2D2D0" />
+
+
+
+    <RelativeLayout
+
+        android:layout_below="@id/txt"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <ImageView
+           android:layout_marginTop="40dp"
+            android:id="@+id/detailimage"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="분류명"
+            android:layout_below="@id/detailimage"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:id="@+id/fdPrdtNm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detailimage"
+            android:layout_toEndOf="@id/txt1"
+            android:layout_toRightOf="@id/txt4"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기종"
+            android:layout_below="@id/txt1"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:id="@+id/prdtClNm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txt2"
+            android:layout_toRightOf="@id/txt4"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:layout_below="@id/fdPrdtNm" />
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="습득일"
+            android:layout_below="@id/txt2"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp" />
+        <TextView
+            android:id="@+id/fdYmd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txt3"
+            android:layout_toRightOf="@id/txt4"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:layout_below="@id/prdtClNm" />
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="보관장소"
+            android:layout_below="@id/txt3"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp" />
+        <TextView
+            android:id="@+id/depPlace"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txt4"
+            android:layout_toRightOf="@id/txt4"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:layout_below="@id/fdYmd" />
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="연락처"
+            android:layout_below="@id/txt4"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp" />
+        <TextView
+            android:id="@+id/tel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txt5"
+            android:layout_toRightOf="@id/txt4"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:layout_below="@id/depPlace" />
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="보관상태"
+            android:layout_below="@id/txt5"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp" />
+        <TextView
+            android:id="@+id/csteSteNm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txt6"
+            android:layout_toRightOf="@id/txt6"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:layout_below="@id/tel" />
+
+        <TextView
+            android:id="@+id/txt8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="지도"
+            android:layout_below="@id/txt6"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp" />
+        <Button
+            android:id="@+id/btnmap"
+            android:text="지도보기"
+            android:layout_below="@id/csteSteNm"
+            android:layout_toEndOf="@id/txt8"
+            android:layout_width="300px"
+            android:layout_marginStart="145px"
+            android:layout_height="100px"
+            android:layout_marginTop="15dp"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:id="@+id/slidinglayout"
+        android:orientation="vertical"
+        android:background="#75000000"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/menutext1"
+            android:text="습득물"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:background="#70d2f08f"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/menutext2"
+            android:text="핸드폰"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:background="#70eeb25b"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/menutext3"
+            android:text="검색"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:background="#70ef4e6f"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/menutext4"
+            android:text="알림"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:background="#70614c69"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

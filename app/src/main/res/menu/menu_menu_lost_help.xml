@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hywoman.LostMistake.menu_lost_help">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="버전정보"
+        app:showAsAction="never" />
+
+</menu>
